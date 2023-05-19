@@ -100,6 +100,22 @@ public class Main {
 
 
 
+    public static void swapTwoNumber() {
+        int x, y, t;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any two number");
+        x = sc.nextInt();
+        y = sc.nextInt();
+        System.out.println("numbers before Swapping "+x +"  "+ y);
+        t = x;
+        x = y;
+        y = t;
+        System.out.println("numbers after Swapping  "+x +"   " + y);
+        System.out.println();
+    }
+
+
+
 
     }
 
