@@ -117,6 +117,21 @@ public class Main {
 
 
 
+    public static void evenOdd() {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter any number");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println("It is even Number "+num);
+        else
+            System.out.println("It is odd Number"+num);
+    }
+
+
+
     }
 
 
